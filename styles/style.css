@@ -28,3 +28,40 @@ nav a:hover {
     font-weight: 500;
     color: #7e459b;
 }
+.container {
+    font-size: 20px;
+}
+.habilidades i {
+    font-size: 1.5rem;
+}
+.tamanho-card {
+    width: 18rem;
+}
+
+.imagem-cards {
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+.modal-card {
+    object-fit: cover;
+    object-position: top;
+    height: 100vh; 
+}
+.titulo-card{
+    color: #7e459b;
+}
+
+.botao {
+    background-color: #7e459b;
+    color: white;
+}
+
+.rodape {
+    background-color: #7e459b;
+}
+
+.destaque {
+    color: #bb62e7;
+}
