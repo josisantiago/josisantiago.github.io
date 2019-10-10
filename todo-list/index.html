@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto II</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="content__titulo">
+            <h1>Adicione uma nova tarefa</h1>
+        </div>
+        <div class="content__input">
+            <form id="formulario">
+                <span id="erro"></span>
+                <label for="opcoes__usuario" id="opcoes">
+                    <select name="etiqueta" id="opcoes__etiquetas">
+                        <option value="opcoes">Escolha uma opção</option>
+                        <option value="academia">Academia</option>
+                        <option value="estudar">Estudo</option>
+                        <option value="feira">Feira</option>
+                        <option value="mercado">Mercado</option>
+                    </select>
+                </label>
+                <input type="text" maxlength="120" class="input-de-texto" placeholder="Digite aqui">
+                <button class="botao__add">add</button>
+            </form>
+        </div>
+        <div id="content__tarefas">
+            <ul id="lista"></ul>
+        </div>
+        <div id="botoes"></div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
