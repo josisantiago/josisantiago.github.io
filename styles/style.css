@@ -13,7 +13,7 @@ nav a:hover {
 .imagem-carrossel {
     object-fit: cover;
     object-position: 0 40%;
-    height: 65vh;
+    height: 65vh;   
 }
 
 .redes-sociais span {
