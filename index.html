@@ -21,13 +21,14 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre</a>
+                            <a class="nav-link" href="#sobre"><button class="btn btn-light text-white bnt-roxo" type="submit">Sobre</button></a>
+                        
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Habilidades</a>
+                            <a class="nav-link" href="#habilidades"><button class="btn btn-light text-white bnt-roxo" type="submit">Habilidades</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Projetos</a>
+                            <a class="nav-link"href="#portifolio"><button class="btn btn-light text-white bnt-roxo" type="submit">Portfólio</button></a>
                     </li>
                 </ul>
             </div>
@@ -39,15 +40,15 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 imagem-carrossel" src="./assets/images/foto1.jpeg"
+                    <img class="d-block w-100 imagem-carrossel img-fluid" src="./assets/images/foto1.jpg"
                         alt="Primeiro Slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 imagem-carrossel" src="./assets/images/foto3.jpg"
+                    <img class="d-block w-100 imagem-carrossel img-fluid" src="./assets/images/foto3.jpg"
                         alt="Segundo Slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 imagem-carrossel" src="./assets/images/foto2.jpeg"
+                    <img class="d-block w-100 imagem-carrossel img-fluid" src="./assets/images/foto2.jpeg"
                         alt="Terceiro Slide">
                 </div>
             </div>
@@ -86,7 +87,7 @@
         <div class="container d-flex flex-column flex-lg-row align-items-start">
             <div class="d-flex flex-column justify-content-center w-50">
                 <h3>Habilidades</h3>
-                <div class="row justify-content-center align-itens-center text-center habilidades">
+                <div id="habilidades"class="row justify-content-center align-itens-center text-center habilidades">
                     <div class="col-2">
                         <i class="fab fa-html5"></i>
                         <p>HTML</p>
@@ -129,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sobre w-50">
+            <div id="sobre" class="sobre w-50">
                 <h3>Sobre</h3>
                 <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit facere ea aperiam
@@ -142,7 +143,7 @@
     </section>
     <!-- cards - meus projetos -->
     <section class="py-3">
-        <div class="container text-center">
+        <div id="portifolio"class="container text-center">
             <h3>Portfólio</h3>
             <!-- cards -->
             <div class="row justify-content-around">
