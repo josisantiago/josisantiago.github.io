@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Plataforma Verde</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<script language="javascript" src="./js/data.js"></script>
+<script language="javascript" src="./js/script.js"></script>
+
+<body>
+    <form method="post" id="form_teste" action="">
+        <h2>Formulário de cadastro</h2>
+        <fieldset id="usuario">
+            <legend>Identificação do Usuário</legend>
+            <p><label for="rotulo_nome">Nome:</label><input type="text" name="tipo_nome" id="name" size="20" maxlength="25"
+                    placeholder="digite seu nome" required="required"></p>
+            <p><label for="rotulo_sobrenome">Sobrenome:</label><input type="text" name="tipo_sobrenome" id="surname" size="20" maxlength="25"
+                    placeholder="digite seu sobrenome" required="required"></p>        
+            <p><label for="rotulo_idade">Idade:</label><input type="number" name="tipo_idade" id="city" min="0" max="100"
+                    size="5" maxlength="3" required="required"></p>
+        </fieldset>
+        <fieldset id="local_estado">
+            <legend>Localização:</legend>
+            <p><label name="uf" for="rotulo_estado">Estado:</label>
+                <select id="estado" onchange="buscaCidades(this.value)">
+                    <option value=""></option>
+                    <option value="BA">Bahia</option>
+                    <option value="SP">São Paulo</option>
+                 </select>
+                 <br>
+                 <p><label for="rotulo_cidade">Cidade</label>
+                 <select id="cidade">
+                 </select>    
+            </p>
+        </fieldset>
+           
+        <fieldset id="mensagem">
+            <legend>Fale Conosco</legend>
+            <p><label for="rotulo_mensagem">Mensagem:</label>
+                <textarea name="texto_msg" id="msg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset id="informacoes">
+            <legend>Mensagem ao Usuário</legend>
+            <input type="checkbox" name="tipo_normas" id="normas" required="required"/><label for="normas">Declaro que li as normas de
+                utilização deste formulário.</label><br>
+            <input type="checkbox" name="tipo_dados" id="dados" /><label for="dados">Autorizo a utilização dos meus dados
+                pelo site.</label><br>
+            <input type="checkbox" name="tipo_receber" id="receber" /><label for="receber">Quero receber maiores informações
+                através do meu e-mail.</label><br>
+        </fieldset>
+
+        <p class="btn">
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
+
+    </form>
+</body>
+
+</html>

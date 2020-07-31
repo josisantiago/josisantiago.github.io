@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#eeecec;
+    border: solid gray 2px;
+}
+
+h2 {
+    text-align: center;
+    color: #666565;
+    font-weight: bold;
+}
+
+input, textarea {  
+    font-weight: normal;
+    font-size: 12px;
+}
+
+input:hover, textarea:hover {
+    background-color: #dfdbdb;
+}
+
+legend{
+    color: #666565;
+    font-weight: bold;
+    font-size: 13px;  
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset label {
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+.btn input{
+    text-align: center;
+    height: 30px;
+    background-color:rgb(119, 117, 117);
+    border-radius: 5px;
+    border: rgb(58, 57, 57) 1px solid;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn input, #normas, #dados, #receber{
+    cursor: pointer;  
+}
+
+.btn input:hover {
+    background-color: rgb(160, 158, 158);
+}
+
+.btn {
+    text-align: center;    
+}
