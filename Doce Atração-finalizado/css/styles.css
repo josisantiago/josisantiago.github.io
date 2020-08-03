@@ -1,0 +1,289 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    border-bottom: 1px solid chocolate;
+    padding: 0px !important;
+}
+
+.logo {
+    width: 200px;   
+    margin-left: 50px;
+}
+
+.logo_delivery {
+    width: 100px; 
+    /* margin-left: 30px;   */
+}
+
+
+#navbarNavAltMarkup a {
+    color: rgb(124, 61, 16);
+    font-size: 18px;
+    margin-left: 20px;
+    /* float: left; */
+}
+
+#navbarNavAltMarkup :hover{
+    color:rgb(241, 183, 141);
+}
+
+.redes_sociais {
+    width:264px;
+    margin-bottom: 5px;
+
+}
+
+.carousel-inner {
+    background-color: rgb(241, 183, 141);
+    border-bottom: 1px solid chocolate; 
+}
+
+.img-carousel {
+    max-width: 1000px;
+    height: 60vh; 
+    overflow: hidden;     
+}
+
+/* .fa-blink {
+    margin-left: 80px;
+    margin-bottom: 50px;
+} */
+
+.redes_sociais img {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}
+
+.redes_sociais p, a {
+    font-size: 15px;
+    text-align: left;
+    color: rgb(124, 61, 16);
+    text-align: center;
+}
+
+.mail a :hover {
+    color: rgb(241, 183, 141);
+   
+}
+
+.mail a {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.mail {
+    color: chocolate;
+    /* margin-top: 15px;  */
+}
+
+.telefone {
+    padding-top: 3px;
+}
+
+.modelo {
+    margin-top: 5%;
+}
+
+.modelo-foto {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.modelo-conteudo {
+    justify-content: left;
+}
+
+h2 {
+    color: rgb(124, 61, 16);
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(124, 61, 16);
+    padding-bottom: 12px;
+    padding-top: 20px;
+    color: rgb(124, 61, 16);
+}
+ 
+.btn {
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(243, 95, 10);
+    color: white; 
+    text-decoration: none;
+}
+
+@keyframes fa-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    /* 100% { opacity: 0; } */
+}
+
+.fa-blink {
+  -webkit-animation: fa-blink 1.5s linear infinite;
+  -moz-animation: fa-blink 1.5s linear infinite;
+  -ms-animation: fa-blink 1.5s linear infinite;
+  -o-animation: fa-blink 1.5s linear infinite;
+  animation: fa-blink 1.5s linear infinite;
+}
+
+.btn :hover {
+    background-color:rgb(241, 183, 141);
+    border: none;   
+    text-decoration: none;
+}
+
+.logo2 {
+    width: 138px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: -39px;
+    box-shadow: 7px 7px 7px 3px gray;
+}
+
+h3 {
+    margin-left: -15px;
+    color: rgb(124, 61, 16)
+}
+
+.contato {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contato p, h3{
+    color: rgb(124, 61, 16);
+}
+
+.fone img {
+    width: 30px;
+}
+
+
+.tamanho-card {
+    width: 20rem;
+    border: none;
+}
+
+.imagem-cards {
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+
+.modal-card {
+    object-fit: cover;
+    object-position: top;
+    height: 46vh; 
+}
+
+.titulo-card{
+    color: rgb(78, 40, 12);
+}
+
+.botao, .btn{
+    background-color: rgb(78, 40, 12);
+    border: none;   
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.botoes {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn2 {
+    width: 235.28px;
+}
+
+.tamanho-card .btn {
+    margin-top: 3px;
+}
+
+.modal-footer > .btn {
+    height: 40px;
+}
+
+.delivery{
+    background-color: rgba(243, 235, 230, 0.89);
+
+}
+
+.parceiros {
+    height: 18vh;
+    padding: 6px;
+   
+}
+
+.parceiros1 {
+    width: 66px;
+    height: 10vh;
+    padding: -1px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-self: center;
+    background-color: rgba(243, 235, 230, 0.89);
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+
+.copyright {
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 2;
+    border-top: 1px solid chocolate;
+    background-color: rgba(243, 235, 230, 0.89);
+
+}
+
+footer > p {
+    padding-bottom: 12px;
+    color: rgb(124, 61, 16);
+    margin: 0;
+}
+
+
+
+ @media (max-width: 500px) {
+    .botoes {
+
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 500px) {
+    #navbarNavAltMarkup  {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    #navbarNavAltMarkup  {
+        display: none;
+    }
+} 
+
